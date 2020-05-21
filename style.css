@@ -4,7 +4,8 @@
 body{color:#FFF;background:rgb(156, 146, 146);margin:0;padding:0;font-family: tahoma;}
 
 header{
-  background-color: rgb(201, 185, 160);text-align: center;
+  background-color: rgb(201, 185, 160);
+  text-align: center;
   color: #fff;font-family: Futura;
   text-transform: uppercase; padding:20px; 
 }
@@ -124,8 +125,9 @@ p{
   text-align: center;
 }
 
-.service-list p{
+.service-item p{
   font-family: 'Alfa Slab One', cursive;
+  color: black;
   text-align:center;
   margin-bottom: 70px;
   font-size: 40px;
@@ -154,15 +156,15 @@ p{
 
 /*---------- Color setting------------ */
 
-#pink{
+.pink{
   color:#d43ca2;
 }
 
-#darkBlue{
+.darkBlue{
   color:#2d324e
 }
 
-#darkRed{
+.darkRed{
 
   color: rgb(53, 14, 14);
 
